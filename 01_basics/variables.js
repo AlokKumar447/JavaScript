@@ -1,3 +1,6 @@
+// to save the changes go on source control -> click on + for all changes -> in message
+// write "container config done" ->then click on commit -> go to three dots ... -> then click on "push"
+
 // variable name should be readable 
 // semi colon is optional at the end of the statements.
 const accountId = 13535
