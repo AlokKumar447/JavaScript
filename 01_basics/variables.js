@@ -40,6 +40,14 @@ console.table([accountId,accountEmail,accountPassword,accountCity])
 /*  7 primitive data types and one Object (non primitive)
 nnbbssu = null, Number , BigInt, Boolean, String, Symbol,undefined ( syntax as it is)
     follow documentation on ecma or mdn for data types
+
+null : standalone value i.e. variable is given an empty value
+Number : number int or float 
+BigInt : for the numbers exceeding the limit of Number
+Boolean : true or false 
+String : set of characters written in double quotes " "
+Symbol : used for uniqueness 
+undefined : the variable is declared but not assign any value to it.
 */
 
 
