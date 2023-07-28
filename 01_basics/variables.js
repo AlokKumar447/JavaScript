@@ -63,6 +63,51 @@ console.log(typeof 8765)
 
 
 
+//*************************     Type conversion of data types.     ********************/
+
+let score = undefined;
+
+//console.log(typeof score);
+//console.log(typeof(score));
+
+let valueInNumber = Number(score)
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
+
+// value of variable   type after Number(variable)     value after Number(variable)
+// "33"                  number (n is small)                     33
+// "33abc" (i.e.string)  number                                   NaN
+//  true                 number                                   1
+// false                 number                                   0
+// undefined             number                                   NaN
+
+let isLoggedIn = undefined
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+//  console.log( typeof booleanIsLoggedIn);
+//  console.log( booleanIsLoggedIn);
+// value of variable   type after Boolean(variable)     value after Boolean(variable)
+
+//any non-zero value    boolean (b is small)                     true
+// "33abc" (i.e.string)  boolean                                 true
+// ""  (empty string)     boolean                                false
+// 0                     boolean                                 false
+// undefined             boolean                                 false
+
+
+
+let someNumber = 'hi'
+
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
+/*
+variable value: number/boolean/undefined/string any thing when String(variable) is applied 
+the value of the new variable is just as it is assigned to old variable but in string format like 
+undefined becomes "undefined", true becomes "true" ,so on 
+and data type is string.
+
+*/
 
 
 
